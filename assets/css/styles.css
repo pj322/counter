@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: 50px auto;
+  width: 300px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container h1 {
+  font-family: 'Nova Square', sans-serif;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgb(204, 203, 203);
+}
+
+.output {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.increment, 
+.decrement {
+  padding: 10px;
+}
+
+.increment button,
+.decrement button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(225, 161, 23);
+  box-shadow:inset -5px -3px rgba(0,0,0,0.1);
+}
+
+.increment button:hover,
+.decrement button:hover {
+  background-color: rgb(184, 133, 22);
+  transition: 0.2s;
+}
+
+.increment button:active,
+.decrement button:active {
+  background-color: rgb(245, 191, 76);
+  transition: 0.7s;
+}
